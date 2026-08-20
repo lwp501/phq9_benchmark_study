@@ -21,7 +21,8 @@ save_forest_tiff <- function(model, filename) {
     model,
     cex = 1.1,
     header = c("Study", "Effect Size [95% CI]"),
-    top = 3
+    top = 3,
+    refline = NA
   )
   dev.off()
 }
