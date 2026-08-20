@@ -142,7 +142,7 @@ p_sim <- ggplot(ITT_long, aes(x = n, y = value, color = variable)) +
   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
 
 ggsave(
-  filename = "crit_vals_update_R1.tiff",
+  filename = "Fig_3_R1.tiff",
   plot = p_sim,
   width = 9.20, height = 7.85,  units = "in", dpi = 600, compression = "lzw"
 )
